@@ -12,6 +12,8 @@ https://www.tensorflow.org/tfx/tutorials/serving/rest_simple
 virtualenv ~/.venv
 echo "source virtualenv ~/.venv/bin/activate" >> ~/.bashrc
 echo "export PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python" >> ~/.bashrc
+echo "alias pdb='python -m debugpy --listen 9339 --wait-for-client'" >> ~/.bashrc
+
 source virtualenv ~/.venv/bin/activate
 ```
 
